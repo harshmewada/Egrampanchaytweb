@@ -1,0 +1,131 @@
+{
+  "topBar": {
+    "logoTitle": "ઈ-ગ્રામ પંચાયત",
+    "headline": "ગ્રામ પંચાયતને વેબસાઈટ દ્વારા ઓળખ આપવાનો પ્રયાસ",
+    "otherLogos": [
+      { "src": "/assets/images/otherlogos/digitalIndia.png" },
+      { "src": "/assets/images/otherlogos/skillIndia.png" },
+      { "src": "/assets/images/otherlogos/swatchBharat.png" },
+      { "src": "/assets/images/otherlogos/betiBachao.png" }
+    ]
+  },
+  "mainNav": [
+    { "title": "અમારા વિશે", "type": "directLink", "link": "aboutus" },
+    { "title": "યોજનાઓ", "type": "directLink", "link": "aboutus" },
+    { "title": "ફોર્મ", "type": "directLink", "link": "aboutus" },
+    { "title": "ગેલેરી", "type": "directLink", "link": "aboutus" },
+    { "title": "અભિપ્રાય", "type": "directLink", "link": "aboutus" },
+    { "title": "સંપર્ક", "type": "directLink", "link": "aboutus" }
+  ],
+  "sliderContainer": {
+    "advertise": {
+      "imageSrc": "/assets/images/logo/logo-light.png",
+      "link": "www.google.com"
+    },
+    "carousel": [
+      {
+        "imageSrc": "/assets/images/banners/1.jpg",
+        "link": "www.google.com",
+        "title": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "/assets/images/banners/2.jpg",
+        "link": "www.google.com",
+        "title": "પ્રધાનમંત્રી આવાસ યોજના (ગ્રામીણ)"
+      },
+      {
+        "imageSrc": "/assets/images/banners/3.jpg",
+        "link": "www.google.com",
+        "title": "સ્વચ્છ ભારત મિશન (ગ્રામીણ)"
+      },
+      {
+        "imageSrc": "/assets/images/banners/4.jpg",
+        "link": "www.google.com",
+        "title": "સાંસદ આદર્શ ગ્રામ યોજના (એસ​.એ.જી.વાય​.)"
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "અભિપ્રાય",
+    "data": [
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/vijay-rupani.jpg",
+        "name": "શ્રી વિજય રૂપાણી",
+        "occupation": "માનનીય મુખ્‍ય મંત્રીશ્રી, ગુજરાત",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/r-r-faldu-crd.jpg",
+        "name": "શ્રી રણછોડભાઇ છનાભાઇ ફળદુ",
+        "occupation": "માનનીય મંત્રીશ્રી, ગ્રામ વિકાસ, ગુજરાત.",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/bachubhai-khabad-crd.jpg",
+        "name": "શ્રી બચુભાઇ મગનભાઇ ખાબડ",
+        "occupation": "માનનીય રાજ્યકક્ષાના મંત્રીશ્રી, ગ્રામ ગૃહનિર્માણ અને ગ્રામ વિકાસ, ગુજરાત.",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/ruraldev-ias.png",
+        "name": "શ્રી વિજય નેહરા, આઈએએસ",
+        "occupation": "કમિશ્‍નર-વ-સચિવ, ગ્રામ વિકાસ",
+        "description": "નેશનલ રુર્બન મિશન"
+      }
+    ]
+  },
+  "counter": {
+    "title": "સરપંચશ્રીઓના અભિપ્રાય ",
+    "data": [
+      {
+        "title": "જિલ્લા પંચાયતો",
+        "count": 33
+      },
+      {
+        "title": "તાલુકા પંચાયતો",
+        "count": 248
+      },
+      {
+        "title": "ગ્રામ પંચાયતો",
+        "count": 14292
+      },
+      {
+        "title": "ગામડા",
+        "count": 18584
+      },
+      {
+        "title": "વસ્તી",
+        "count": 60383628
+      }
+    ]
+  },
+  "sarpanchPortFolio": {
+    "title": "સરપંચશ્રીઓના અભિપ્રાય ",
+    "data": [
+      {
+        "imageSrc": "http://jepurpanchayat.com/assets/images/products/p3.jpg",
+        "name": "શ્રી વિજય રૂપાણી",
+        "occupation": "માનનીય મુખ્‍ય મંત્રીશ્રી, ગુજરાત",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/r-r-faldu-crd.jpg",
+        "name": "શ્રી રણછોડભાઇ છનાભાઇ ફળદુ",
+        "occupation": "માનનીય મંત્રીશ્રી, ગ્રામ વિકાસ, ગુજરાત.",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/bachubhai-khabad-crd.jpg",
+        "name": "શ્રી બચુભાઇ મગનભાઇ ખાબડ",
+        "occupation": "માનનીય રાજ્યકક્ષાના મંત્રીશ્રી, ગ્રામ ગૃહનિર્માણ અને ગ્રામ વિકાસ, ગુજરાત.",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/ruraldev-ias.png",
+        "name": "શ્રી વિજય નેહરા, આઈએએસ",
+        "occupation": "કમિશ્‍નર-વ-સચિવ, ગ્રામ વિકાસ",
+        "description": "નેશનલ રુર્બન મિશન"
+      }
+    ]
+  }
+}
