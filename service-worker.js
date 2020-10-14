@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Egrampanchaytweb/precache-manifest.7c32dcdd2b08ade0c8de23ef53ba88e8.js"
+  "/Egrampanchaytweb/precache-manifest.e2804b6436b87862430d98fa5c2c46ad.js"
 );
 
 self.addEventListener('message', (event) => {

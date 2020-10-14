@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a0c9803e7f853aeb947a5d60a9daa6a",
+    "revision": "62fe9653ec784d57f636751d750cc7e9",
     "url": "/Egrampanchaytweb/index.html"
   },
   {
-    "revision": "7cb296a646c9bc82bc1f",
+    "revision": "27f1b8db366bc310d30f",
     "url": "/Egrampanchaytweb/static/css/main.20a6513f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Egrampanchaytweb/static/js/2.91498668.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7cb296a646c9bc82bc1f",
-    "url": "/Egrampanchaytweb/static/js/main.4b1e83a2.chunk.js"
+    "revision": "27f1b8db366bc310d30f",
+    "url": "/Egrampanchaytweb/static/js/main.1437789c.chunk.js"
   },
   {
     "revision": "e5fa74a0faad0e71a83c",
