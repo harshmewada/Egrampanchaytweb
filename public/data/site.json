@@ -17,6 +17,96 @@
     { "title": "અભિપ્રાય", "type": "directLink", "link": "aboutus" },
     { "title": "સંપર્ક", "type": "directLink", "link": "aboutus" }
   ],
+  "searchComponent": [
+    {
+      "name": "district",
+      "label": "district",
+      "placeholder": "district",
+      "type": "autocomplete",
+      "size": "medium",
+      "options": [{ "label": "ahmedabad", "value": "Ahmedabad" }]
+    },
+    {
+      "name": "taluka",
+      "label": "taluka",
+      "placeholder": "taluka",
+      "type": "autocomplete",
+      "size": "medium",
+
+      "options": [{ "label": "ahmedabad", "value": "Ahmedabad" }]
+    },
+    {
+      "name": "gam",
+      "label": "gam",
+      "placeholder": "gam",
+      "type": "autocomplete",
+      "size": "medium",
+
+      "options": [{ "label": "ahmedabad", "value": "Ahmedabad" }]
+    }
+  ],
+  "subLayouts": [
+    {
+      "name": "About us",
+      "width": 4,
+      "type": "aboutus",
+      "title": "અમારા વિશે ",
+      "description": "પંચાયત, ગ્રામ ગૃહ નિર્માણ અને ગ્રામ વિકાસ વિભાગ પોતાને ફાળવેલ વિષયોને લગતી બાબતો અંગે નીતિ વિષયક નિર્ણયો લે છે. તે ઉપરાંત એના અમલ પર દેખરેખ રાખે છે માર્ગદર્શન અને હુકમો ના સ્વરૂપે આદેશો બહાર પાડે છે. આ રીતે પંચાયત, ગ્રામ ગૃહ નિર્માણ અને ગ્રામ વિકાસ વિભાગ નિયંત્રણની કામગીરી કરે છે. પંચાયત, ગ્રામ ગૃહ નિર્માણ અને ગ્રામ વિકાસ વિભાગનું આ ૩૧(એકત્રીસ)મું કામગીરી અંદાજપત્ર છે.પંચાયત, ગ્રામ ગૃહ નિર્માણ અને ગ્રામ વિકાસ વિભાગ અગ્ર સચિવશ્રીના નિયંત્રણ હેઠળની કામગીરી છે. આ વિભાગમાં તા.૩૧-૦૩-૨૦૧૭ થી ૩૧-૦૩-૨૦૧૮ ના રોજની સ્થિતીએ મંજુર થયેલ અધિકારીઓ કર્મચારીઓની વિગત નીચે પ્રમાણે છે.",
+      "linkTitle": "વધુ વાંચો ",
+      "link": "www.google.com"
+    },
+    {
+      "name": "shcemes",
+      "width": 4,
+
+      "type": "schemelist",
+      "title": "યોજનાઓ",
+      "data": [
+        {
+          "title": "નેશનલ રુર્બન મિશન",
+          "link": "www.google.com"
+        },
+        {
+          "title": "નેશનલ રુર્બન મિશન",
+          "link": "www.google.com"
+        },
+        {
+          "title": "નેશનલ રુર્બન મિશન",
+          "link": "www.google.com"
+        }
+      ],
+      "linkTitle": "વધુ વાંચો ",
+      "link": "www.google.com"
+    },
+    {
+      "name": "news",
+      "width": 4,
+
+      "type": "news",
+      "title": "અવનવા સમાચાર ",
+      "data": [
+        {
+          "date": "5/10/2020",
+          "title": "નેશનલ રુર્બન મિશન",
+          "link": "www.google.com"
+        },
+        {
+          "date": "5/10/2020",
+
+          "title": "નેશનલ sdasd મિશન",
+          "link": "www.google.com"
+        },
+        {
+          "date": "5/10/2020",
+
+          "title": "નેશનલ રુsdfsdfર્બન મિશન",
+          "link": "www.google.com"
+        }
+      ],
+      "linkTitle": "વધુ વાંચો ",
+      "link": "www.google.com"
+    }
+  ],
   "sliderContainer": {
     "advertise": {
       "imageSrc": "/assets/images/logo/logo-light.png",
@@ -46,7 +136,6 @@
     ]
   },
   "portfolio": {
-    "title": "અભિપ્રાય",
     "data": [
       {
         "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/vijay-rupani.jpg",
@@ -75,7 +164,6 @@
     ]
   },
   "counter": {
-    "title": "સરપંચશ્રીઓના અભિપ્રાય ",
     "data": [
       {
         "title": "જિલ્લા પંચાયતો",
@@ -125,6 +213,147 @@
         "name": "શ્રી વિજય નેહરા, આઈએએસ",
         "occupation": "કમિશ્‍નર-વ-સચિવ, ગ્રામ વિકાસ",
         "description": "નેશનલ રુર્બન મિશન"
+      }
+    ]
+  },
+  "talatiPortFolio": {
+    "title": "તલાટીશ્રીઓના અભિપ્રાય ",
+    "data": [
+      {
+        "imageSrc": "http://jepurpanchayat.com/assets/images/products/p3.jpg",
+        "name": "શ્રી વિજય રૂપાણી",
+        "occupation": "માનનીય મુખ્‍ય મંત્રીશ્રી, ગુજરાત",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/r-r-faldu-crd.jpg",
+        "name": "શ્રી રણછોડભાઇ છનાભાઇ ફળદુ",
+        "occupation": "માનનીય મંત્રીશ્રી, ગ્રામ વિકાસ, ગુજરાત.",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/bachubhai-khabad-crd.jpg",
+        "name": "શ્રી બચુભાઇ મગનભાઇ ખાબડ",
+        "occupation": "માનનીય રાજ્યકક્ષાના મંત્રીશ્રી, ગ્રામ ગૃહનિર્માણ અને ગ્રામ વિકાસ, ગુજરાત.",
+        "description": "નેશનલ રુર્બન મિશન"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/ruraldev-ias.png",
+        "name": "શ્રી વિજય નેહરા, આઈએએસ",
+        "occupation": "કમિશ્‍નર-વ-સચિવ, ગ્રામ વિકાસ",
+        "description": "નેશનલ રુર્બન મિશન"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "ગ્રામ પંચાયતોની સિદ્ધિઓ",
+    "data": [
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      },
+      {
+        "imageSrc": "/assets/images/achievements/1.png",
+        "title": "૧ લાખ લીટર ઓવરહેડ ટાંકી અને ૨ લાખ લીટર ના સંપ નું ખાતમૂહર્ત કાર્યક્રમ",
+        "description": "જેપુર ગામમાં 25 લાખના ખર્ચ બનનાર 1 લાખ લીટરની ઓવરહેડ પાણીની ટાંકી અને 2 લાખ લીટરની અંન્ડરગ્રાઉન્ડ પાણીની ટાંકી તેમજ 7.5 HP ની મોટર સાથેના સંપનું તા-૫/૧૨/૨૦૧૮ ના રોજ ભારતીય જનતા પાર્ટી ના પ્રમુખ અને વિજાપુર એ.પી.એમ.સી. ડીરેક્ટર શ્રી રાજુભાઈ પટેલ, સરપંચશ્રી મનોજભાઈ પટેલ,વાસ્મો ના અધિકારી શ્રી શમરુસિંહ ડાભી, શ્રીમતી કિન્નરીબેન પટેલ, પંચાયત સદસ્યશ્રીઓ, તથા ગ્રામજનોની ઉપસ્થિતીમાં ખાતમુહૂર્ત કરવામાં આવ્યુ.",
+        "linkTitle": "વધુ વાંચો ",
+        "link": "www.google.com"
+      }
+    ]
+  },
+  "importantLinks": {
+    "title": "મહત્વપૂર્ણ લિંક્સ",
+    "data": [
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/indiagov.jpg",
+
+        "link": "http://india.gov.in/"
+      },
+
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/MRD.jpg",
+
+        "link": "https://rural.nic.in/"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/swachh-bharat-kosh.jpg",
+
+        "link": "http://sbkosh.gov.in/"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/NRHM.jpg",
+
+        "link": "http://nrhm.gujarat.gov.in/"
+      },
+      {
+        "imageSrc": "https://ruraldev.gujarat.gov.in/writereaddata/images/gswan-hort.jpg",
+
+        "link": "http://www.gswan.gov.in/"
+      },
+      {
+        "imageSrc": "http://www.jepurpanchayat.com/assets/images/brands/brand5.png",
+
+        "link": "http://india.gov.in/"
+      },
+      {
+        "imageSrc": "http://www.jepurpanchayat.com/assets/images/brands/brand1.png",
+
+        "link": "http://india.gov.in/"
+      },
+      {
+        "imageSrc": "http://www.jepurpanchayat.com/assets/images/brands/brand6.png",
+
+        "link": "http://india.gov.in/"
+      },
+      {
+        "imageSrc": "http://www.jepurpanchayat.com/assets/images/brands/brand4.png",
+
+        "link": "http://india.gov.in/"
       }
     ]
   }

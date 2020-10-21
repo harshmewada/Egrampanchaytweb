@@ -1,33 +1,56 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Box, Container, Divider, Grid, Typography } from "@material-ui/core";
+import {
+  Box,
+  Card,
+  CardContent,
+  CardMedia,
+  Container,
+  Link,
+  Typography,
+} from "@material-ui/core";
 import fontConfig from "../../constants/fonts";
-import PortFolioItem from "../../components/PortFolioItem";
+// import fontConfig from "../../constants/fonts";
+
 const useStyles = makeStyles((theme) => ({
   root: {
-    paddingTop: theme.spacing(5),
-    paddingBottom: theme.spacing(2),
-    // backgroundColor: theme.palette.primary.light,
+    // marginTop: theme.spacing(),
+    // marginBottom: theme.spacing(5),
     [theme.breakpoints.down("md")]: {
       backgroundColor: "white",
     },
   },
-  Divider: {
-    marginBottom: theme.spacing(5),
+  card: {
+    width: "20vw",
+
+    height: "100%",
+    display: "flex",
+    flexDirection: "column",
+    transition: "all 0.5s ease",
+    "&:hover": {
+      boxShadow: "0px 0px 20px rgba(0,0,0,0.15)",
+    },
+  },
+  cover: {
+    height: "25vh",
+    width: "100%",
+
+    // width: "25vh",
+    // alignSelf: "center",
+    // justifySelf: "center",
+    // maxWidth: "15vw",
   },
   titleContainer: {},
-  title: {
-    ...fontConfig.bold,
-    fontSize: "2rem",
-    color: "white",
-    backgroundColor: theme.palette.primary.main,
-    // width: "20%",
-    // width: "15%",
-    textAlign: "center",
-    padding: 10,
-    // padding: "10 30px",
-    // wordWrap: "no-wrap",
-  },
+  // title: {
+  //   ...fontConfig.semibold,
+  //   fontSize: "2rem",
+  //   color: "white",
+  //   backgroundColor: theme.palette.primary.main,
+  //   // width: "20%",
+  //   width: "15%",
+  //   textAlign: "center",
+  //   padding: 10,
+  // },
   personalityContainer: {
     marginTop: theme.spacing(3),
     display: "flex",
@@ -35,43 +58,56 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     alignItems: "center",
   },
+  name: {
+    ...fontConfig.medium,
+    fontSize: "1rem",
+  },
+  description: {
+    marginTop: theme.spacing(1),
+    ...fontConfig.regular,
+    fontSize: "0.8rem",
+    overflow: "hidden",
+    display: "-webkit-box",
+    letterSpacing: "0.05rem",
+    height: "7vh",
+    textOverflow: "ellipsis",
+    WebkitLineClamp: 3,
+    WebkitBoxOrient: "vertical",
+  },
+  link: {
+    marginTop: theme.spacing(1),
+    marginRight: theme.spacing(2),
+  },
 }));
 
-const PortFolio = ({ data }) => {
+const AchievementItem = ({ data }) => {
   const classes = useStyles();
 
   return (
-    <>
-      <div className={classes.root}>
-        <Container maxWidth="lg">
-          <div className={classes.Divider}>
-            <Divider />
-          </div>
-
-          {data.title && (
-            <Grid container>
-              <Grid item className={classes.titleContainer}>
-                <Typography variant="h6" className={classes.title}>
-                  {data.title}
-                </Typography>
-              </Grid>
-            </Grid>
-          )}
-          <Grid container spacing={2} className={classes.personalityContainer}>
-            {data.data.map((man, index) => {
-              return (
-                <Grid item lg={3} key={index}>
-                  <PortFolioItem data={man} />
-                </Grid>
-              );
-            })}
-          </Grid>
-        </Container>
-      </div>
-    </>
+    <div className={classes.root}>
+      <Card className={classes.card} variant="outlined">
+        <CardMedia image={data.imageSrc} className={classes.cover} />
+        <CardContent>
+          <Typography variant="body1" className={classes.name}>
+            {data.title}
+          </Typography>
+          <Typography variant="body2" className={classes.description}>
+            {data.description}
+          </Typography>
+        </CardContent>
+        <Typography
+          align="right"
+          variant="body1"
+          className={classes.link}
+          paragraph
+        >
+          <Link href={data?.link}>{data?.linkTitle}</Link>
+        </Typography>
+      </Card>
+    </div>
   );
 };
-export default PortFolio;
+export default AchievementItem;
 
 // import React from "react";
 // import { makeStyles } from "@material-ui/core/styles";

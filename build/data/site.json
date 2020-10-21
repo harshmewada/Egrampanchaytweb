@@ -45,6 +45,26 @@
       }
     ]
   },
+  "searchComponent": [
+    {
+      "name": "district",
+      "lable": "district",
+      "type": "select",
+      "options": [{ "label": "ahmedabad", "value": "Ahmedabad" }]
+    },
+    {
+      "name": "taluka",
+      "lable": "taluka",
+      "type": "select",
+      "options": [{ "label": "ahmedabad", "value": "Ahmedabad" }]
+    },
+    {
+      "name": "gam",
+      "lable": "gam",
+      "type": "AutoSelect",
+      "options": [{ "label": "ahmedabad", "value": "Ahmedabad" }]
+    }
+  ],
   "portfolio": {
     "title": "અભિપ્રાય",
     "data": [

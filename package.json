@@ -1,5 +1,4 @@
 {
-  "homepage": "http://harshmewada.github.io/Egrampanchaytweb",
   "name": "egramweb",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +13,11 @@
     "axios": "^0.20.0",
     "clsx": "^1.1.1",
     "material-ui-popup-state": "^1.7.0",
+    "pure-react-carousel": "^1.27.5",
     "react": "^16.13.1",
     "react-countup": "^4.3.3",
     "react-dom": "^16.13.1",
+    "react-hook-form": "^6.9.2",
     "react-material-ui-carousel": "^2.0.1",
     "react-scripts": "3.4.3"
   },

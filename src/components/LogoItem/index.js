@@ -1,77 +1,67 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { Box, Container, Divider, Grid, Typography } from "@material-ui/core";
+import {
+  Box,
+  Card,
+  CardContent,
+  CardMedia,
+  Container,
+  Link,
+  Typography,
+} from "@material-ui/core";
 import fontConfig from "../../constants/fonts";
-import PortFolioItem from "../../components/PortFolioItem";
+// import fontConfig from "../../constants/fonts";
+
 const useStyles = makeStyles((theme) => ({
-  root: {
-    paddingTop: theme.spacing(5),
-    paddingBottom: theme.spacing(2),
-    // backgroundColor: theme.palette.primary.light,
-    [theme.breakpoints.down("md")]: {
-      backgroundColor: "white",
-    },
-  },
-  Divider: {
-    marginBottom: theme.spacing(5),
-  },
-  titleContainer: {},
-  title: {
-    ...fontConfig.bold,
-    fontSize: "2rem",
-    color: "white",
-    backgroundColor: theme.palette.primary.main,
-    // width: "20%",
-    // width: "15%",
-    textAlign: "center",
-    padding: 10,
-    // padding: "10 30px",
-    // wordWrap: "no-wrap",
-  },
-  personalityContainer: {
-    marginTop: theme.spacing(3),
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
+  cover: {
+    height: "15vh",
+    objectFit: "contain",
+    width: "100%",
+    cursor: "pointer",
+
+    // width: "25vh",
+    // alignSelf: "center",
+    // justifySelf: "center",
+    // maxWidth: "15vw",
   },
 }));
 
-const PortFolio = ({ data }) => {
+const LogoItem = ({ data }) => {
   const classes = useStyles();
 
+  const handleNavigate = (page) => {
+    window.open(page);
+  };
   return (
-    <>
-      <div className={classes.root}>
-        <Container maxWidth="lg">
-          <div className={classes.Divider}>
-            <Divider />
-          </div>
-
-          {data.title && (
-            <Grid container>
-              <Grid item className={classes.titleContainer}>
-                <Typography variant="h6" className={classes.title}>
-                  {data.title}
-                </Typography>
-              </Grid>
-            </Grid>
-          )}
-          <Grid container spacing={2} className={classes.personalityContainer}>
-            {data.data.map((man, index) => {
-              return (
-                <Grid item lg={3} key={index}>
-                  <PortFolioItem data={man} />
-                </Grid>
-              );
-            })}
-          </Grid>
-        </Container>
-      </div>
-    </>
+    <div className={classes.root}>
+      <img
+        src={data.imageSrc}
+        onClick={() => handleNavigate(data.link)}
+        className={classes.cover}
+      />
+      {/* <Card className={classes.card} variant="outlined">
+        <CardMedia image={data.imageSrc} className={classes.cover} />
+        <CardContent>
+          <Typography variant="body1" className={classes.name}>
+            {data.title}
+          </Typography>
+          <Typography variant="body2" className={classes.description}>
+            {data.description}
+          </Typography>
+        </CardContent>
+        <Typography
+          align="right"
+          variant="body1"
+          className={classes.link}
+          paragraph
+        >
+          <Link href={data?.link}>{data?.linkTitle}</Link>
+        </Typography>
+      </Card> */}
+    </div>
   );
 };
-export default PortFolio;
+export default LogoItem;
 
 // import React from "react";
 // import { makeStyles } from "@material-ui/core/styles";
